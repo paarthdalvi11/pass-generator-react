@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+    font-size: 45px;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45rem;
+}
+.first{
+  display: flex;
+  background-color: black;
+  width: 100%;
+  padding: 12px 12px 12px 20px;
+  margin-top: 2rem;
+  border-radius: 0.6rem;
+  align-items: center;
+}
+.first input{
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+.first button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  /* padding: calc(.875rem - 1px) calc(1.5rem - 1px); */
+  padding: 10px 30px 15px 30px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.first button:hover,
+.first button:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.first button:hover {
+  transform: translateY(-1px);
+}
+
+.first button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.rangeDiv{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.rangeDiv input{
+  width: 45rem;
+}
+label{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+input[type="range"]{
+ color: #fa6400;
+ background-color: #fa6400; 
+ accent-color: #fa6400;
+}
+
+.btns{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.2rem;
+}
+.x{
+  margin-left: 10px;
+  font-size: 20px;
+}
